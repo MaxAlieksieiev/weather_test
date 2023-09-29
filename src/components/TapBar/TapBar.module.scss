@@ -1,0 +1,35 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto
+}
+
+.button {
+  cursor: pointer;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(#000, 0.4);
+
+  &:hover {
+    -webkit-box-shadow: -16px -21px 44px -14px rgba(245,240,245,1);
+    -moz-box-shadow: -16px -21px 44px -14px rgba(245,240,245,1);
+    box-shadow: -16px -21px 44px -14px rgba(245,240,245,1);
+  }
+}
+.small {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}

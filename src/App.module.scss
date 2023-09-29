@@ -1,0 +1,26 @@
+
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url('./assets/images/background.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-width: 600px) {
+    background-image: none;
+    background: linear-gradient(168deg, #2E335A 1.62%, #1C1B33 95.72%);
+  };
+
+  &_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
